@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Linguagem e compatibilidade */
+    "target": "ES2020",
+    "module": "commonjs",
+
+    /* Estrutura do projeto */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Configurações de módulo */
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+
+    /* Qualidade e segurança */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Suporte para importações absolutas (opcional) */
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
