@@ -1,4 +1,4 @@
-import { embalagemAberturaMock } from '@/mock/mockValues';
+import { embalagemAberturaMock } from '@/mock/embalagemMock';
 import { logger } from '@/utils/logger';
 import { AberturaQuery } from '@/validators/Embalagem/embalagemAbertura.validator';
 import { Request, Response } from "express";

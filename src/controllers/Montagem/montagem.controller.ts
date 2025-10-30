@@ -1,4 +1,4 @@
-import { montagemListMetaRealizado, montagemListMetaRealizadoOneEquip } from '@/mock/mockValues';
+import { montagemListMetaRealizado, montagemListMetaRealizadoOneEquip } from '@/mock/montagemMock';
 import { Request, Response } from "express";
 
 

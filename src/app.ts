@@ -8,6 +8,8 @@ import { kitMontagemRoutes } from "./routes/KitMontagem/kitMontagem.routes";
 import { quadroProdRoutes } from "./routes/QuadroProd/quadroProd.routes";
 import { metasProdRoutes } from "./routes/MetasProd/metasProd.routes";
 import { AtravessamentoRoutes } from "./routes/AtravessamentoOp/atravessamentoOp.routes";
+import { metasConfigProdRoutes } from "./routes/MetasConfigProd/metasConfigProd.routes";
+import { ordemProcessoRoutes } from "./routes/OrdemProcesso/ordemProcesso.routes";
 
 const app = express();
 
@@ -19,10 +21,12 @@ app.set("etag", false);
 app.use("/api/montagem", montagemRoutes);
 app.use("/api/embalagem", embalagemRoutes);
 app.use("/api/resumoprod", ResumoProdRoutes);
-app.use("/api", kitMontagemRoutes);
+app.use("/api/kitmontagem", kitMontagemRoutes);
 app.use("/api", quadroProdRoutes);
 app.use("/api", metasProdRoutes);
+app.use("/api/metasconfigprod", metasConfigProdRoutes);
 app.use("/api/atravessamento", AtravessamentoRoutes);
+app.use("/api/ordemprocesso", ordemProcessoRoutes);
 
 app.use(errorHandler);
 

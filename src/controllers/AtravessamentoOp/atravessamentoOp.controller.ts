@@ -1,8 +1,5 @@
+import { buscarAtravessamentoMock, listaLinhaMock, listaPeriodoMock, listaSegmentoMock } from "@/mock/atravessamentoOpMock";
 import {
-  buscarAtravessamentoMock,
-  listaLinhaMock,
-  listaPeriodoMock,
-  listaSegmentoMock,
 } from "@/mock/mockValues";
 import { Request, Response } from "express";
 
