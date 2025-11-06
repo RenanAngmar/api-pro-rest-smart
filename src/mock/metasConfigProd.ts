@@ -6,7 +6,7 @@ export let metasBuscaByConfigProd = {
   linha: "1",
   operacao: 'Montagem',
   mapa:'1',
-  hora6: 56,
+  hora6: 0,
   hora7: 53,
   hora8: 23,
   hora9: 28,
