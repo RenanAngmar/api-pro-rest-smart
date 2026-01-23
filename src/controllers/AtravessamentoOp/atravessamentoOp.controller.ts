@@ -1,6 +1,5 @@
 import { buscarAtravessamentoMock, listaLinhaMock, listaPeriodoMock, listaSegmentoMock } from "@/mock/atravessamentoOpMock";
-import {
-} from "@/mock/mockValues";
+
 import { Request, Response } from "express";
 
 export const pesquisarAtravessamento = (req: Request, res: Response) => {

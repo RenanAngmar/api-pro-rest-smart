@@ -1,5 +1,3 @@
-import {
-} from "@/mock/mockValues";
 import { buscarResumoProdMock, listaDetalhesProdEficienciaMock, listaDetalhesProdMock, operacoesResumoProd, turnoResumoProd } from "@/mock/resumoProdMock";
 import { logger } from "@/utils/logger";
 import { Request, Response } from "express";

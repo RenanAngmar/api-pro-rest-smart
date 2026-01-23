@@ -10,6 +10,8 @@ import { metasProdRoutes } from "./routes/MetasProd/metasProd.routes";
 import { AtravessamentoRoutes } from "./routes/AtravessamentoOp/atravessamentoOp.routes";
 import { metasConfigProdRoutes } from "./routes/MetasConfigProd/metasConfigProd.routes";
 import { ordemProcessoRoutes } from "./routes/OrdemProcesso/ordemProcesso.routes";
+import { matrizesProcessoRoutes } from "./routes/MatrizesProcesso/matrizesProcesso.routes";
+import { PainelResumoProdRoutes } from "./routes/PainelProdutividadeLinha/painelProdLinha.routes";
 
 const app = express();
 
@@ -27,6 +29,8 @@ app.use("/api", metasProdRoutes);
 app.use("/api/metasconfigprod", metasConfigProdRoutes);
 app.use("/api/atravessamento", AtravessamentoRoutes);
 app.use("/api/ordemprocesso", ordemProcessoRoutes);
+app.use("/api/matrizesprocesso", matrizesProcessoRoutes);
+app.use("/api/painelresumo", PainelResumoProdRoutes);
 
 app.use(errorHandler);
 
