@@ -29,17 +29,17 @@ export let operacoesResumoProd = [
   {
     id: 1,
     dsTipoOperacao: "EMBALAGEM",
-    cdTipoOperacao: "1",
+    cdTipoOperacao: "0080",
   },
   {
     id: 2,
     dsTipoOperacao: "MONTAGEM",
-    cdTipoOperacao: "2",
+    cdTipoOperacao: "0050",
   },
   {
     id: 3,
     dsTipoOperacao: "REPARO",
-    cdTipoOperacao: "3",
+    cdTipoOperacao: "0060",
   },
 ];
 

@@ -1,12 +1,45 @@
+export let horasPermitidasTurno1 = [
+  "hora6",
+  "hora7",
+  "hora8",
+  "hora9",
+  "hora10",
+  "hora11",
+  "hora12",
+  "hora13",
+  "hora14",
+  "hora15",
+];
+
+export let horasPermitidasTurno2 = [
+  "hora16",
+  "hora17",
+  "hora18",
+  "hora19",
+  "hora20",
+  "hora21",
+  "hora22",
+  "hora23",
+  "hora0",
+];
+
+export let horasPermitidasTurno3 = [
+  "hora1",
+  "hora2",
+  "hora3",
+  "hora4",
+  "hora5",
+];
+
 export let metasBuscaByConfigProd = {
   id: 1,
-  centro: '1010',
+  centro: "1010",
   turno: "1",
-  responsavel: 'HDW',
+  responsavel: "HDW",
   linha: "1",
-  operacao: 'Montagem',
-  mapa:'1',
-  hora6: 0,
+  operacao: "Montagem",
+  mapa: "1",
+  hora6: 56,
   hora7: 53,
   hora8: 23,
   hora9: 28,
@@ -24,14 +57,16 @@ export let metasBuscaByConfigProd = {
   hora21: 54,
   hora22: 63,
   hora23: 72,
-  hora00: 3,
-  hora01: 8,
-  hora02: 7,
-  hora03: 2,
-  hora04: 7,
-  hora05: 5,
+  hora0: 3,
+  hora1: 8,
+  hora2: 7,
+  hora3: 2,
+  hora4: 7,
+  hora5: 5,
 };
-export let metasConfigProd = [
+export let metasConfigProd = {
+totalElements: 2,
+content: [
   {
     id: 1,
     linha: 1,
@@ -53,12 +88,12 @@ export let metasConfigProd = [
     hora21: 54,
     hora22: 63,
     hora23: 72,
-    hora00: 3,
-    hora01: 8,
-    hora02: 7,
-    hora03: 2,
-    hora04: 7,
-    hora05: 5,
+    hora0: 3,
+    hora1: 8,
+    hora2: 7,
+    hora3: 2,
+    hora4: 7,
+    hora5: 5,
     total: 3456,
   },
   {
@@ -82,12 +117,14 @@ export let metasConfigProd = [
     hora21: 54,
     hora22: 63,
     hora23: 72,
-    hora00: 3,
-    hora01: 8,
-    hora02: 7,
-    hora03: 2,
-    hora04: 7,
-    hora05: 5,
+    hora0: 3,
+    hora1: 8,
+    hora2: 7,
+    hora3: 2,
+    hora4: 7,
+    hora5: 5,
     total: 3456,
   },
-];
+]
+}
+

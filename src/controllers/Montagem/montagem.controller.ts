@@ -1,10 +1,10 @@
-import { montagemListMetaRealizado, montagemListMetaRealizadoOneEquip } from '@/mock/montagemMock';
+import { montagemBateria, montagemBateriaTeste, montagemListMetaRealizado, montagemListMetaRealizadoOneEquip } from '@/mock/montagemMock';
 import { Request, Response } from "express";
 
 
 export const iniciarMontagem = (req: Request, res: Response) => {
   console.log("Body iniciar:", req.body);
-  return res.json(montagemListMetaRealizadoOneEquip);
+  return res.json(montagemBateriaTeste);
 };
 
 export const validarNs = (req: Request, res: Response) => {

@@ -1,3 +1,193 @@
+export let montagemBateriaTeste = {
+  mensagem: "Número de série iniciado.",
+  tipoMensagem: 0,
+  dados: {
+    id: 1486,
+    idPassagem: 170491,
+    idOperacao: null,
+    op: "000010431212",
+    centroTrabalho: "1910",
+    numeroSerie: "4AJ39PB9C",
+    modelo: "NTB POSITIVO VISION C4128A-15",
+    qtdMaterial: 4,
+    isFinalizaAutomatico: false,
+  },
+  listaMaterial: [
+    {
+      id: 990,
+      idMaterial: 990,
+      ordemAssociacao: 1,
+      descricaoMaterial: "PLM CG15D12P 4GB 128GB N4020 DDR4 JABIL",
+      materialLido: true,
+      qtdItemMaterial: 2,
+      qtdItemMaterialLido: 2,
+      codMaterial: "000000000011182371",
+      numSerieLidos: ["4AJ39PBBB", "4AJ39PBAA"],
+      // numSerieLidos: [],
+    },
+    {
+      id: 490,
+      idMaterial: 490,
+      ordemAssociacao: 2,
+      descricaoMaterial: "BATER 2C LI-ION 5000MAH 37WH HENA SKD",
+      materialLido: false,
+      qtdItemMaterial: 2,
+      qtdItemMaterialLido: 0,
+      codMaterial: "000000000011182333",
+      numSerieLidos: [],
+    },
+  ],
+  eficiencia: {
+    turno: "1",
+    metaTotalTurno: 4680,
+    realizadoTotalTurno: 1,
+    metaTotalTurnoInstant: 1955,
+    valorEficiencia: 0.05,
+    listaMeta: [
+      {
+        hora: 1,
+        valorHora: 600,
+        inicioHora: "09:00",
+        fimHora: "10:00",
+      },
+    ],
+    listaRealizado: [
+      {
+        hora: 1,
+        valorHora: 1,
+        inicioHora: "09:00",
+        fimHora: "10:00",
+      },
+    ],
+  },
+  listaRegras: [
+    "INICIA_ATIVIDADE",
+    "MONTAGEM_PLM",
+    "MONTAGEM_BATERIA",
+    "FINALIZA_ATIVIDADE",
+    "FINALIZA_OPERACAO",
+  ],
+  isImprimirImei: false,
+};
+
+export let montagemBateria = {
+  mensagem: "Número de série iniciado.",
+  tipoMensagem: 0,
+  dados: {
+    id: 58313,
+    idPassagem: 34181,
+    idOperacao: null,
+    op: "000010438260",
+    centroTrabalho: "1910",
+    numeroSerie: "4AJ87XQ3P",
+    modelo: "POSITIVO VISION C4128B-15",
+    qtdMaterial: 2,
+    isFinalizaAutomatico: false,
+  },
+  listaMaterial: [
+    {
+      id: 4835,
+      idMaterial: 4835,
+      ordemAssociacao: 1,
+      descricaoMaterial: "PLM P15S 4GB 128GB N4500 DDR4 BOREO",
+      materialLido: true,
+      qtdItemMaterial: 1,
+      qtdItemMaterialLido: 1,
+      codMaterial: "000000000011229444",
+      numSerieLidos: ["11229444A4325A0UX0"],
+    },
+    {
+      id: 288,
+      idMaterial: 288,
+      ordemAssociacao: 2,
+      descricaoMaterial: "BATER 2C LI-PO 5000MAH 37WH BOREO",
+      materialLido: null,
+      qtdItemMaterial: 1,
+      qtdItemMaterialLido: null,
+      codMaterial: "000000000011196661",
+      numSerieLidos: null,
+    },
+  ],
+  eficiencia: {
+    turno: "0",
+    metaTotalTurno: 0,
+    realizadoTotalTurno: 186,
+    metaTotalTurnoInstant: 0,
+    valorEficiencia: 0.0,
+    listaMeta: [
+      {
+        hora: 1,
+        valorHora: 0,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 2,
+        valorHora: 0,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 3,
+        valorHora: 0,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 4,
+        valorHora: 0,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 5,
+        valorHora: 0,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+    ],
+    listaRealizado: [
+      {
+        hora: 1,
+        valorHora: 30,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 2,
+        valorHora: 38,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 3,
+        valorHora: 37,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 4,
+        valorHora: 37,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+      {
+        hora: 5,
+        valorHora: 44,
+        inicioHora: "00:00",
+        fimHora: "23:59",
+      },
+    ],
+  },
+  listaRegras: [
+    "INICIA_ATIVIDADE",
+    "FINALIZA_ATIVIDADE",
+    "MONTAGEM_BATERIA",
+    "MONTAGEM_PLM",
+  ],
+  isImprimirImei: false,
+};
+
 export let montagemListMetaRealizadoOneEquip = {
   mensagem: "Número de série iniciado.",
   tipoMensagem: 0,
@@ -443,4 +633,3 @@ export let montagemListBacktree = {
   },
   listaRegras: [],
 };
-
